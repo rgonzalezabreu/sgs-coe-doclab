@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TaskValidationMonad
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TaskValidationMonad
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logosgs.png" alt="" style="width: 88px; height: 41px;">
+              </a>
+              <a class="navbar-brand" href="../index.html">
+                <img src="../images/logocoe.png" style="width: 88px; height: 41px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SGS.Framework.FunK.TaskValidationMonad">
+  
+  
+  <h1 id="SGS_Framework_FunK_TaskValidationMonad" data-uid="SGS.Framework.FunK.TaskValidationMonad" class="text-break">Class TaskValidationMonad
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TaskValidationMonad</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SGS.Framework.FunK.html">SGS.Framework.FunK</a></h6>
+  <h6><strong>Assembly</strong>: SGS.Framework.FunK.dll</h6>
+  <h5 id="SGS_Framework_FunK_TaskValidationMonad_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TaskValidationMonad : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/MonadStacks/TaskValidationMonad.cs&amp;version=GBmaster&amp;line=22">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskValidationMonad_Select_" data-uid="SGS.Framework.FunK.TaskValidationMonad.Select*"></a>
+  <h4 id="SGS_Framework_FunK_TaskValidationMonad_Select__2_Task_SGS_Framework_FunK_Validation___0___Func___0___1__" data-uid="SGS.Framework.FunK.TaskValidationMonad.Select``2(Task{SGS.Framework.FunK.Validation{``0}},Func{``0,``1})">Select&lt;T, U&gt;(Task&lt;Validation&lt;T&gt;&gt;, Func&lt;T, U&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Validation&lt;U&gt;&gt; Select&lt;T, U&gt;(this Task&lt;Validation&lt;T&gt;&gt; self, Func&lt;T, U&gt; mapper)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">self</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, U&gt;</td>
+        <td><span class="parametername">mapper</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;U&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/MonadStacks/TaskValidationMonad.cs&amp;version=GBmaster&amp;line=29">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskValidationMonad_SelectMany_" data-uid="SGS.Framework.FunK.TaskValidationMonad.SelectMany*"></a>
+  <h4 id="SGS_Framework_FunK_TaskValidationMonad_SelectMany__2_Task_SGS_Framework_FunK_Validation___0___Func___0_Task_SGS_Framework_FunK_Validation___1____" data-uid="SGS.Framework.FunK.TaskValidationMonad.SelectMany``2(Task{SGS.Framework.FunK.Validation{``0}},Func{``0,Task{SGS.Framework.FunK.Validation{``1}}})">SelectMany&lt;T, R&gt;(Task&lt;Validation&lt;T&gt;&gt;, Func&lt;T, Task&lt;Validation&lt;R&gt;&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Validation&lt;R&gt;&gt; SelectMany&lt;T, R&gt;(this Task&lt;Validation&lt;T&gt;&gt; task, Func&lt;T, Task&lt;Validation&lt;R&gt;&gt;&gt; bind)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;R&gt;&gt;&gt;</td>
+        <td><span class="parametername">bind</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/MonadStacks/TaskValidationMonad.cs&amp;version=GBmaster&amp;line=34">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskValidationMonad_SelectMany_" data-uid="SGS.Framework.FunK.TaskValidationMonad.SelectMany*"></a>
+  <h4 id="SGS_Framework_FunK_TaskValidationMonad_SelectMany__3_Task_SGS_Framework_FunK_Validation___0___Func___0_Task_SGS_Framework_FunK_Validation___1____Func___0___1___2__" data-uid="SGS.Framework.FunK.TaskValidationMonad.SelectMany``3(Task{SGS.Framework.FunK.Validation{``0}},Func{``0,Task{SGS.Framework.FunK.Validation{``1}}},Func{``0,``1,``2})">SelectMany&lt;T, R, RR&gt;(Task&lt;Validation&lt;T&gt;&gt;, Func&lt;T, Task&lt;Validation&lt;R&gt;&gt;&gt;, Func&lt;T, R, RR&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Validation&lt;RR&gt;&gt; SelectMany&lt;T, R, RR&gt;(this Task&lt;Validation&lt;T&gt;&gt; task, Func&lt;T, Task&lt;Validation&lt;R&gt;&gt;&gt; bind, Func&lt;T, R, RR&gt; project)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;R&gt;&gt;&gt;</td>
+        <td><span class="parametername">bind</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R, RR&gt;</td>
+        <td><span class="parametername">project</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;RR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">RR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/MonadStacks/TaskValidationMonad.cs&amp;version=GBmaster&amp;line=7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

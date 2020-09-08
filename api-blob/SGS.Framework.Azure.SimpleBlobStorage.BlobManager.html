@@ -1,0 +1,2618 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BlobManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BlobManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logosgs.png" alt="" style="width: 88px; height: 41px;">
+              </a>
+              <a class="navbar-brand" href="../index.html">
+                <img src="../images/logocoe.png" style="width: 88px; height: 41px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager">
+  
+  
+  <h1 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager" class="text-break">Class BlobManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BlobManager</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Contracts.IBlobManager.html">IBlobManager</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.html">SGS.Framework.Azure.SimpleBlobStorage</a></h6>
+  <h6><strong>Assembly</strong>: SGS.Framework.Azure.SimpleBlobStorage.dll</h6>
+  <h5 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BlobManager : object, IBlobManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=43">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager__ctor_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.#ctor*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager__ctor_SGS_Framework_Azure_SimpleBlobStorage_BlobContainerOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.#ctor(SGS.Framework.Azure.SimpleBlobStorage.BlobContainerOptions)">BlobManager(BlobContainerOptions)</h4>
+  <div class="markdown level1 summary"><p>Builds the instance with the configuration object <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobContainerOptions.html">BlobContainerOptions</a> for specifying the isntance's behavior.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BlobManager(BlobContainerOptions configuration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobContainerOptions.html">BlobContainerOptions</a></td>
+        <td><span class="parametername">configuration</span></td>
+        <td><p>Configures this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=599">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ClearMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ClearMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ClearMetadataAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ClearMetadataAsync(System.String)">ClearMetadataAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes all metadata for a blob in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ClearMetadataAsync(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=606">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ClearMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ClearMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ClearMetadataAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ClearMetadataAsync(System.String,System.String)">ClearMetadataAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes all metadata for a blob in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ClearMetadataAsync(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob to be deleted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=388">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_CommitBlocksAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.CommitBlocksAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_CommitBlocksAsync_System_String_List_System_String__" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.CommitBlocksAsync(System.String,List{System.String})">CommitBlocksAsync(String, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Commit the blocks to a new or existing blob in the default container in configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task CommitBlocksAsync(string blobName, List&lt;string&gt; blockIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">blockIds</span></td>
+        <td><p>List of blocks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=396">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_CommitBlocksAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.CommitBlocksAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_CommitBlocksAsync_System_String_System_String_List_System_String__" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.CommitBlocksAsync(System.String,System.String,List{System.String})">CommitBlocksAsync(String, String, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Commit the blocks to a new or existing blob.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task CommitBlocksAsync(string blobName, string containerName, List&lt;string&gt; blockIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to commit the blocks.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">blockIds</span></td>
+        <td><p>List of blocks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=752">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAllAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAllAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAllAsync_System_String_System_Boolean_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAllAsync(System.String,System.Boolean)">DeleteAllAsync(String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAllAsync(string partialBlobName, bool deleteSnapshotsAsWell = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">partialBlobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deleteSnapshotsAsWell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=754">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAllAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAllAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAllAsync_System_String_System_String_System_Boolean_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAllAsync(System.String,System.String,System.Boolean)">DeleteAllAsync(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAllAsync(string partialBlobName, string containerName, bool deleteSnapshotsAsWell = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">partialBlobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deleteSnapshotsAsWell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=733">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAsync(System.String)">DeleteAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a blob in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=741">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DeleteAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DeleteAsync(System.String,System.String)">DeleteAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a blob in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob to be deleted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=79">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DocumentExists_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DocumentExists*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DocumentExists_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DocumentExists(System.String)">DocumentExists(String)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates if a given blob exists in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; DocumentExists(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>True or false</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=87">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DocumentExists_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DocumentExists*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DocumentExists_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DocumentExists(System.String,System.String)">DocumentExists(String, String)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates if a given blob exists in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; DocumentExists(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>True or false</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=122">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_Stream_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync(Stream,System.String)">DownloadAsync(Stream, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the default container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; DownloadAsync(Stream stream, string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=131">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_Stream_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync(Stream,System.String,System.String)">DownloadAsync(Stream, String, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the specified container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; DownloadAsync(Stream stream, string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=99">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync(System.String)">DownloadAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; DownloadAsync(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=107">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_DownloadAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.DownloadAsync(System.String,System.String)">DownloadAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; DownloadAsync(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=211">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_FindBlobsAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.FindBlobsAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_FindBlobsAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.FindBlobsAsync(System.String)">FindBlobsAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Lists all blobs containing the search string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;IListBlobItem&gt;&gt; FindBlobsAsync(string searchString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">searchString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">IListBlobItem</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=219">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_FindBlobsAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.FindBlobsAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_FindBlobsAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.FindBlobsAsync(System.String,System.String)">FindBlobsAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>List all blobs containing the search string in the specified container</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;IListBlobItem&gt;&gt; FindBlobsAsync(string searchString, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">searchString</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">IListBlobItem</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=523">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobMetadataAsync_System_String_SGS_Framework_Azure_SimpleBlobStorage_Contracts_DecodingOption_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobMetadataAsync(System.String,SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption)">GetBlobMetadataAsync(String, DecodingOption)</h4>
+  <div class="markdown level1 summary"><p>Gets metadata for a blob in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IDictionary&lt;string, string&gt;&gt; GetBlobMetadataAsync(string blobName, DecodingOption decodingOption = default(DecodingOption))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption.html">DecodingOption</a></td>
+        <td><span class="parametername">decodingOption</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=535">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobMetadataAsync_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Contracts_DecodingOption_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobMetadataAsync(System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption)">GetBlobMetadataAsync(String, String, DecodingOption)</h4>
+  <div class="markdown level1 summary"><p>Gets metadata for a blob in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IDictionary&lt;string, string&gt;&gt; GetBlobMetadataAsync(string blobName, string containerName, DecodingOption decodingOption = default(DecodingOption))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob which metadata is to be retrieved</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption.html">DecodingOption</a></td>
+        <td><span class="parametername">decodingOption</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobMetadataAsync_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Contracts_DecodingOption__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the value of parameter blobname is null or empty it returns an empty non-null dictionary.
+If the blob name does not exist it returns an empty non-null dictionary.</p>
+</div>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=896">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobProperties_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobProperties*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobProperties_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobProperties(System.String)">GetBlobProperties(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; GetBlobProperties(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=898">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobProperties_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobProperties*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlobProperties_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlobProperties(System.String,System.String)">GetBlobProperties(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt; GetBlobProperties(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=422">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlockListAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlockListAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlockListAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlockListAsync(System.String)">GetBlockListAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Return an enumerable collection of the blob's blocks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetBlockListAsync(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=430">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlockListAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlockListAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetBlockListAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetBlockListAsync(System.String,System.String)">GetBlockListAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Return an enumerable collection of the blob's blocks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;string&gt;&gt; GetBlockListAsync(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob blocks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=807">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetSasUriAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetSasUriAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetSasUriAsync_System_String_DateTimeOffset_DateTimeOffset_SharedAccessBlobPermissions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetSasUriAsync(System.String,DateTimeOffset,DateTimeOffset,SharedAccessBlobPermissions)">GetSasUriAsync(String, DateTimeOffset, DateTimeOffset, SharedAccessBlobPermissions)</h4>
+  <div class="markdown level1 summary"><p>Finds all blob that contain the parameter in the name in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetSasUriAsync(string blobName, DateTimeOffset startTime, DateTimeOffset expiryTime, SharedAccessBlobPermissions permissions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="parametername">expiryTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharedAccessBlobPermissions</span></td>
+        <td><span class="parametername">permissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>the S.A.S. for the blob</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=820">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetSasUriAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetSasUriAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_GetSasUriAsync_System_String_System_String_DateTimeOffset_DateTimeOffset_SharedAccessBlobPermissions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.GetSasUriAsync(System.String,System.String,DateTimeOffset,DateTimeOffset,SharedAccessBlobPermissions)">GetSasUriAsync(String, String, DateTimeOffset, DateTimeOffset, SharedAccessBlobPermissions)</h4>
+  <div class="markdown level1 summary"><p>Finds all blob that contain the parameter in the name in the spicified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;string&gt; GetSasUriAsync(string blobName, string containerName, DateTimeOffset startTime, DateTimeOffset expiryTime, SharedAccessBlobPermissions permissions = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="parametername">startTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="parametername">expiryTime</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">SharedAccessBlobPermissions</span></td>
+        <td><span class="parametername">permissions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>the S.A.S. for the blob</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=195">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ListAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ListAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ListAsync" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ListAsync">ListAsync()</h4>
+  <div class="markdown level1 summary"><p>Lists all blobs in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;IListBlobItem&gt;&gt; ListAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">IListBlobItem</span>&gt;&gt;</td>
+        <td><p>A list of <see cref="!:IListBlobItem"></see></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=203">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ListAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ListAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_ListAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.ListAsync(System.String)">ListAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Lists all blobs in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IEnumerable&lt;IListBlobItem&gt;&gt; ListAsync(string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blobs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IEnumerable</span>&lt;<span class="xref">IListBlobItem</span>&gt;&gt;</td>
+        <td><p>A list of <see cref="!:IListBlobItem"></see></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=862">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToCoolStorage_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToCoolStorage*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToCoolStorage_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToCoolStorage(System.String)">MoveToCoolStorage(String)</h4>
+  <div class="markdown level1 summary"><p>Move a blob to cool storage, optimized for storing data that is infrequently accessed and stored for at least 30 days.
+If you think you could move to hot storage before that, do not move to cool storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MoveToCoolStorage(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=870">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToCoolStorage_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToCoolStorage*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToCoolStorage_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToCoolStorage(System.String,System.String)">MoveToCoolStorage(String, String)</h4>
+  <div class="markdown level1 summary"><p>Move a blob to cool storage, optimized for storing data that is infrequently accessed and stored for at least 30 days.
+If you think you could move to hot storage before that, do not move to cool storage.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MoveToCoolStorage(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which the blob is</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=881">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToHotStorage_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToHotStorage*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToHotStorage_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToHotStorage(System.String)">MoveToHotStorage(String)</h4>
+  <div class="markdown level1 summary"><p>Move a blob to hot storage. The hot access tier has higher storage costs than cool and archive tiers, but the lowest access costs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MoveToHotStorage(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=888">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToHotStorage_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToHotStorage*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_MoveToHotStorage_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.MoveToHotStorage(System.String,System.String)">MoveToHotStorage(String, String)</h4>
+  <div class="markdown level1 summary"><p>Move a blob to hot storage. The hot access tier has higher storage costs than cool and archive tiers, but the lowest access costs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MoveToHotStorage(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which the blob is</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=628">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadata_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadata*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadata_System_String_IEnumerable_System_String__" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadata(System.String,IEnumerable{System.String})">RemoveMetadata(String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMetadata(string blobName, IEnumerable&lt;string&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=631">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadata_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadata*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadata_System_String_System_String_IEnumerable_System_String__" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadata(System.String,System.String,IEnumerable{System.String})">RemoveMetadata(String, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMetadata(string blobName, string containerName, IEnumerable&lt;string&gt; keys)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=615">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadataEntry_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadataEntry*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadataEntry_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadataEntry(System.String,System.String)">RemoveMetadataEntry(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMetadataEntry(string blobName, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=618">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadataEntry_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadataEntry*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_RemoveMetadataEntry_System_String_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.RemoveMetadataEntry(System.String,System.String,System.String)">RemoveMetadataEntry(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveMetadataEntry(string blobName, string containerName, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=463">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_SetBlobMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.SetBlobMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_SetBlobMetadataAsync_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.SetBlobMetadataAsync(System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">SetBlobMetadataAsync(String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Sets metadata for a blob in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetBlobMetadataAsync(string blobName, MetadataOptions metadataOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadataOptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=473">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_SetBlobMetadataAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.SetBlobMetadataAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_SetBlobMetadataAsync_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.SetBlobMetadataAsync(System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">SetBlobMetadataAsync(String, String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Sets metadata for a blob in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SetBlobMetadataAsync(string blobName, string containerName, MetadataOptions metadataOptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob for which metadata is going to be added</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadataOptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=150">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_MemoryStream_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync(MemoryStream,System.String)">StreamAsync(MemoryStream, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the default container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task StreamAsync(MemoryStream stream, string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MemoryStream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=159">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_MemoryStream_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync(MemoryStream,System.String,System.String)">StreamAsync(MemoryStream, String, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the specified container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task StreamAsync(MemoryStream stream, string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MemoryStream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>Stream to download the blob into</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=172">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync(System.String)">StreamAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the default container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MemoryStream&gt; StreamAsync(string blobName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">MemoryStream</span>&gt;</td>
+        <td><p>Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=180">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_StreamAsync_System_String_System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.StreamAsync(System.String,System.String)">StreamAsync(String, String)</h4>
+  <div class="markdown level1 summary"><p>Downloads a blob from the specified container into a stream object supplied by the caller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MemoryStream&gt; StreamAsync(string blobName, string containerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob to download</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">MemoryStream</span>&gt;</td>
+        <td><p>Blob contents as string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=259">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadAsync_Stream_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadAsync(Stream,System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">UploadAsync(Stream, String, String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Uploads a blob as a stream in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; UploadAsync(Stream content, string blobName, string contentType, MetadataOptions metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Stream with file data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Content type of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>An instance of <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a> pointing to the inserted blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=270">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadAsync_Stream_System_String_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadAsync(Stream,System.String,System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">UploadAsync(Stream, String, String, String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Uploads a blob as a stream in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; UploadAsync(Stream content, string blobName, string contentType, string containerName, MetadataOptions metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Stream with file data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Content type of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>An instance of <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a> pointing to the inserted blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=344">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadBlockAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadBlockAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadBlockAsync_System_String_System_String_System_Byte___System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadBlockAsync(System.String,System.String,System.Byte[],System.String)">UploadBlockAsync(String, String, Byte[], String)</h4>
+  <div class="markdown level1 summary"><p>Uploads a blod in a single block to the default container in configuration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UploadBlockAsync(string blobName, string blockId, byte[] bytes, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blockId</span></td>
+        <td><p>Blocks id in Base64 encoded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Array of bytes content.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>Hash value used to ensure transactional integrity. May be null or an empty string.
+MD5 value must be 128 bits and base64 encoded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=358">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadBlockAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadBlockAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UploadBlockAsync_System_String_System_String_System_String_System_Byte___System_String_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UploadBlockAsync(System.String,System.String,System.String,System.Byte[],System.String)">UploadBlockAsync(String, String, String, Byte[], String)</h4>
+  <div class="markdown level1 summary"><p>Uploads a blod in a single block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UploadBlockAsync(string blobName, string containerName, string blockId, byte[] bytes, string hash)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to upload the blob blocks.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blockId</span></td>
+        <td><p>Blocks id in Base64 encoded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td><p>Array of bytes content.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">hash</span></td>
+        <td><p>Hash value used to ensure transactional integrity. May be null or an empty string.
+MD5 value must be 128 bits and base64 encoded.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=667">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UpsertAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UpsertAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UpsertAsync_Stream_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UpsertAsync(Stream,System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">UpsertAsync(Stream, String, String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Upsertts a blob as a stream in the default container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; UpsertAsync(Stream content, string blobName, string contentType, MetadataOptions metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Stream with file data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Content type of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>An instance of <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a> pointing to the inserted blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=678">View Source</a>
+  </span>
+  <a id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UpsertAsync_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UpsertAsync*"></a>
+  <h4 id="SGS_Framework_Azure_SimpleBlobStorage_BlobManager_UpsertAsync_Stream_System_String_System_String_System_String_SGS_Framework_Azure_SimpleBlobStorage_Models_MetadataOptions_" data-uid="SGS.Framework.Azure.SimpleBlobStorage.BlobManager.UpsertAsync(Stream,System.String,System.String,System.String,SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions)">UpsertAsync(Stream, String, String, String, MetadataOptions)</h4>
+  <div class="markdown level1 summary"><p>Upserts a blob as a stream in the specified container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BlobReferenceResponse&gt; UpsertAsync(Stream content, string blobName, string contentType, string containerName, MetadataOptions metadata = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Stream</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Stream with file data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blobName</span></td>
+        <td><p>Name of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">contentType</span></td>
+        <td><p>Content type of the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">containerName</span></td>
+        <td><p>Name of the container in which to look for the blob.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html">MetadataOptions</a></td>
+        <td><span class="parametername">metadata</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a>&gt;</td>
+        <td><p>An instance of <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html">BlobReferenceResponse</a> pointing to the inserted blob.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SGS.Framework.Azure.SimpleBlobStorage.Contracts.IBlobManager.html">IBlobManager</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.Azure.SimpleBlobStorage/BlobManager.cs&amp;version=GBmaster&amp;line=24" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

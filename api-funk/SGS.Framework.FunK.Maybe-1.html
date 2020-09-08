@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Maybe&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Maybe&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logosgs.png" alt="" style="width: 88px; height: 41px;">
+              </a>
+              <a class="navbar-brand" href="../index.html">
+                <img src="../images/logocoe.png" style="width: 88px; height: 41px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SGS.Framework.FunK.Maybe`1">
+  
+  
+  <h1 id="SGS_Framework_FunK_Maybe_1" data-uid="SGS.Framework.FunK.Maybe`1" class="text-break">Struct Maybe&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Maybe monad used for error handling.
+The Maybe monad can represent the duality when an operation may return a value or not,
+providing the functor and monad interface Map and Bind to allow composition.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe.Nothing.html">Nothing</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SGS.Framework.FunK.html">SGS.Framework.FunK</a></h6>
+  <h6><strong>Assembly</strong>: SGS.Framework.FunK.dll</h6>
+  <h5 id="SGS_Framework_FunK_Maybe_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct Maybe&lt;T&gt; : IEquatable&lt;Nothing&gt;, IEquatable&lt;Maybe&lt;T&gt;&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>T</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=72">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_IsNothing_" data-uid="SGS.Framework.FunK.Maybe`1.IsNothing*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_IsNothing" data-uid="SGS.Framework.FunK.Maybe`1.IsNothing">IsNothing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNothing { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=55">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_AsEnumerable_" data-uid="SGS.Framework.FunK.Maybe`1.AsEnumerable*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_AsEnumerable" data-uid="SGS.Framework.FunK.Maybe`1.AsEnumerable">AsEnumerable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; AsEnumerable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=64">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_Equals_" data-uid="SGS.Framework.FunK.Maybe`1.Equals*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_Equals_SGS_Framework_FunK_Maybe_Nothing_" data-uid="SGS.Framework.FunK.Maybe`1.Equals(SGS.Framework.FunK.Maybe.Nothing)">Equals(Nothing)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Nothing _)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe.Nothing.html">Nothing</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=60">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_Equals_" data-uid="SGS.Framework.FunK.Maybe`1.Equals*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_Equals_SGS_Framework_FunK_Maybe__0__" data-uid="SGS.Framework.FunK.Maybe`1.Equals(SGS.Framework.FunK.Maybe{`0})">Equals(Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Maybe&lt;T&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_Equals_" data-uid="SGS.Framework.FunK.Maybe`1.Equals*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_Equals_System_Object_" data-uid="SGS.Framework.FunK.Maybe`1.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=74">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_From_" data-uid="SGS.Framework.FunK.Maybe`1.From*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_From__0_" data-uid="SGS.Framework.FunK.Maybe`1.From(`0)">From(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Maybe&lt;T&gt; From(T obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_GetHashCode_" data-uid="SGS.Framework.FunK.Maybe`1.GetHashCode*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_GetHashCode" data-uid="SGS.Framework.FunK.Maybe`1.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=71">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_IsJust_" data-uid="SGS.Framework.FunK.Maybe`1.IsJust*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_IsJust" data-uid="SGS.Framework.FunK.Maybe`1.IsJust">IsJust()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsJust()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=52">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_Match_" data-uid="SGS.Framework.FunK.Maybe`1.Match*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_Match__1_Func___0__Func__0___0__" data-uid="SGS.Framework.FunK.Maybe`1.Match``1(Func{``0},Func{`0,``0})">Match&lt;R&gt;(Func&lt;R&gt;, Func&lt;T, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public R Match&lt;R&gt;(Func&lt;R&gt; Nothing, Func&lt;T, R&gt; Just)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;R&gt;</td>
+        <td><span class="parametername">Nothing</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
+        <td><span class="parametername">Just</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=69">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_ToString_" data-uid="SGS.Framework.FunK.Maybe`1.ToString*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_ToString" data-uid="SGS.Framework.FunK.Maybe`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_op_Equality_" data-uid="SGS.Framework.FunK.Maybe`1.op_Equality*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_op_Equality_SGS_Framework_FunK_Maybe__0__SGS_Framework_FunK_Maybe__0__" data-uid="SGS.Framework.FunK.Maybe`1.op_Equality(SGS.Framework.FunK.Maybe{`0},SGS.Framework.FunK.Maybe{`0})">Equality(Maybe&lt;T&gt;, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Maybe&lt;T&gt; this, Maybe&lt;T&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=49">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_op_Implicit_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_op_Implicit__0__SGS_Framework_FunK_Maybe__0_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit(`0)~SGS.Framework.FunK.Maybe{`0}">Implicit(T to Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Maybe&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=47">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_op_Implicit_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_op_Implicit_SGS_Framework_FunK_Maybe_Just__0___SGS_Framework_FunK_Maybe__0_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit(SGS.Framework.FunK.Maybe.Just{`0})~SGS.Framework.FunK.Maybe{`0}">Implicit(Just&lt;T&gt; to Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Maybe&lt;T&gt;(Just&lt;T&gt; just)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe.Just-1.html">Just</a>&lt;T&gt;</td>
+        <td><span class="parametername">just</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=46">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_op_Implicit_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_op_Implicit_SGS_Framework_FunK_Maybe_Nothing__SGS_Framework_FunK_Maybe__0_" data-uid="SGS.Framework.FunK.Maybe`1.op_Implicit(SGS.Framework.FunK.Maybe.Nothing)~SGS.Framework.FunK.Maybe{`0}">Implicit(Nothing to Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Maybe&lt;T&gt;(Nothing _)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe.Nothing.html">Nothing</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=67">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_Maybe_1_op_Inequality_" data-uid="SGS.Framework.FunK.Maybe`1.op_Inequality*"></a>
+  <h4 id="SGS_Framework_FunK_Maybe_1_op_Inequality_SGS_Framework_FunK_Maybe__0__SGS_Framework_FunK_Maybe__0__" data-uid="SGS.Framework.FunK.Maybe`1.op_Inequality(SGS.Framework.FunK.Maybe{`0},SGS.Framework.FunK.Maybe{`0})">Inequality(Maybe&lt;T&gt;, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Maybe&lt;T&gt; this, Maybe&lt;T&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.F.html#SGS_Framework_FunK_F_Pipe__2___0_Func___0___1__">F.Pipe&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.F.html#SGS_Framework_FunK_F_Pipe__1___0_Action___0__">F.Pipe&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.F.html#SGS_Framework_FunK_F_Cons__1___0_IEnumerable___0__">F.Cons&lt;T&gt;(T, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Bind__2_SGS_Framework_FunK_Maybe___0__Func___0_SGS_Framework_FunK_Maybe___1___">MaybeExtensions.Bind&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, Maybe&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Bind__2_SGS_Framework_FunK_Maybe___0__Func___0_IEnumerable___1___">MaybeExtensions.Bind&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, IEnumerable&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_ForEach__1_SGS_Framework_FunK_Maybe___0__Action___0__">MaybeExtensions.ForEach&lt;T&gt;(Maybe&lt;T&gt;, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Map__2_SGS_Framework_FunK_Maybe___0__Func___0___1__">MaybeExtensions.Map&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Map__3_SGS_Framework_FunK_Maybe___0__Func___0___1___2__">MaybeExtensions.Map&lt;T1, T2, R&gt;(Maybe&lt;T1&gt;, Func&lt;T1, T2, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Map__4_SGS_Framework_FunK_Maybe___0__Func___0___1___2___3__">MaybeExtensions.Map&lt;T1, T2, T3, R&gt;(Maybe&lt;T1&gt;, Func&lt;T1, T2, T3, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Traverse__2_SGS_Framework_FunK_Maybe___0__Func___0_IEnumerable___1___">MaybeExtensions.Traverse&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, IEnumerable&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Match__1_SGS_Framework_FunK_Maybe___0__Action_Action___0__">MaybeExtensions.Match&lt;T&gt;(Maybe&lt;T&gt;, Action, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_GetOrElse__1_SGS_Framework_FunK_Maybe___0____0_">MaybeExtensions.GetOrElse&lt;T&gt;(Maybe&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_GetOrElse__1_SGS_Framework_FunK_Maybe___0__Func___0__">MaybeExtensions.GetOrElse&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_GetOrElse__1_SGS_Framework_FunK_Maybe___0__Func_Task___0___">MaybeExtensions.GetOrElse&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_OrElse__1_SGS_Framework_FunK_Maybe___0__SGS_Framework_FunK_Maybe___0__">MaybeExtensions.OrElse&lt;T&gt;(Maybe&lt;T&gt;, Maybe&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_OrElse__1_SGS_Framework_FunK_Maybe___0__Func_SGS_Framework_FunK_Maybe___0___">MaybeExtensions.OrElse&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Maybe&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_ToValidation__1_SGS_Framework_FunK_Maybe___0__Func_SGS_Framework_FunK_Error__">MaybeExtensions.ToValidation&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Error&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Tap__1_SGS_Framework_FunK_Maybe___0__Action_">MaybeExtensions.Tap&lt;T&gt;(Maybe&lt;T&gt;, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Tap__2_SGS_Framework_FunK_Maybe___0__Func___0___1__">MaybeExtensions.Tap&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Tap__2_SGS_Framework_FunK_Maybe___0__Func_SGS_Framework_FunK_Maybe___0____1__">MaybeExtensions.Tap&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;Maybe&lt;T&gt;, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Select__2_SGS_Framework_FunK_Maybe___0__Func___0___1__">MaybeExtensions.Select&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_Where__1_SGS_Framework_FunK_Maybe___0__Func___0_System_Boolean__">MaybeExtensions.Where&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeExtensions.html#SGS_Framework_FunK_MaybeExtensions_SelectMany__3_SGS_Framework_FunK_Maybe___0__Func___0_SGS_Framework_FunK_Maybe___1___Func___0___1___2__">MaybeExtensions.SelectMany&lt;T, R, RR&gt;(Maybe&lt;T&gt;, Func&lt;T, Maybe&lt;R&gt;&gt;, Func&lt;T, R, RR&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeTraversable.html#SGS_Framework_FunK_MaybeTraversable_Traverse__2_SGS_Framework_FunK_Maybe___0__Func___0_SGS_Framework_FunK_Exceptional___1___">MaybeTraversable.Traverse&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, Exceptional&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeTraversable.html#SGS_Framework_FunK_MaybeTraversable_Traverse__2_SGS_Framework_FunK_Maybe___0__Func___0_Task___1___">MaybeTraversable.Traverse&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;R&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="SGS.Framework.FunK.MaybeTraversable.html#SGS_Framework_FunK_MaybeTraversable_TraverseBind__2_SGS_Framework_FunK_Maybe___0__Func___0_Task_SGS_Framework_FunK_Maybe___1____">MaybeTraversable.TraverseBind&lt;T, R&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;Maybe&lt;R&gt;&gt;&gt;)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/Maybe/Maybe.cs&amp;version=GBmaster&amp;line=31" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

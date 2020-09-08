@@ -1,0 +1,3128 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TaskExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TaskExtensions
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logosgs.png" alt="" style="width: 88px; height: 41px;">
+              </a>
+              <a class="navbar-brand" href="../index.html">
+                <img src="../images/logocoe.png" style="width: 88px; height: 41px;">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SGS.Framework.FunK.TaskExtensions">
+  
+  
+  <h1 id="SGS_Framework_FunK_TaskExtensions" data-uid="SGS.Framework.FunK.TaskExtensions" class="text-break">Class TaskExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TaskExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SGS.Framework.FunK.html">SGS.Framework.FunK</a></h6>
+  <h6><strong>Assembly</strong>: SGS.Framework.FunK.dll</h6>
+  <h5 id="SGS_Framework_FunK_TaskExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TaskExtensions : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=50">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__10_Task_Func___0___1___2___3___4___5___6___7___8___9___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``10(Task{Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9}},Task{``0})">Apply&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt; Apply&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=17">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__2_Task_Func___0___1___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``2(Task{Func{``0,``1}},Task{``0})">Apply&lt;T, R&gt;(Task&lt;Func&lt;T, R&gt;&gt;, Task&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Apply&lt;T, R&gt;(this Task&lt;Func&lt;T, R&gt;&gt; f, Task&lt;T&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T, R&gt;&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=22">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__3_Task_Func___0___1___2___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``3(Task{Func{``0,``1,``2}},Task{``0})">Apply&lt;T1, T2, R&gt;(Task&lt;Func&lt;T1, T2, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, R&gt;&gt; Apply&lt;T1, T2, R&gt;(this Task&lt;Func&lt;T1, T2, R&gt;&gt; f, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, R&gt;&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=26">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__4_Task_Func___0___1___2___3___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``4(Task{Func{``0,``1,``2,``3}},Task{``0})">Apply&lt;T1, T2, T3, R&gt;(Task&lt;Func&lt;T1, T2, T3, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, R&gt;&gt; Apply&lt;T1, T2, T3, R&gt;(this Task&lt;Func&lt;T1, T2, T3, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=30">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__5_Task_Func___0___1___2___3___4___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``5(Task{Func{``0,``1,``2,``3,``4}},Task{``0})">Apply&lt;T1, T2, T3, T4, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, R&gt;&gt; Apply&lt;T1, T2, T3, T4, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=34">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__6_Task_Func___0___1___2___3___4___5___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``6(Task{Func{``0,``1,``2,``3,``4,``5}},Task{``0})">Apply&lt;T1, T2, T3, T4, T5, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, T5, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, R&gt;&gt; Apply&lt;T1, T2, T3, T4, T5, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, T5, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=38">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__7_Task_Func___0___1___2___3___4___5___6___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``7(Task{Func{``0,``1,``2,``3,``4,``5,``6}},Task{``0})">Apply&lt;T1, T2, T3, T4, T5, T6, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, R&gt;&gt; Apply&lt;T1, T2, T3, T4, T5, T6, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=42">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__8_Task_Func___0___1___2___3___4___5___6___7___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``8(Task{Func{``0,``1,``2,``3,``4,``5,``6,``7}},Task{``0})">Apply&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, R&gt;&gt; Apply&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=46">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Apply_" data-uid="SGS.Framework.FunK.TaskExtensions.Apply*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Apply__9_Task_Func___0___1___2___3___4___5___6___7___8___Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Apply``9(Task{Func{``0,``1,``2,``3,``4,``5,``6,``7,``8}},Task{``0})">Apply&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;(Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;&gt;, Task&lt;T1&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, T8, R&gt;&gt; Apply&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;(this Task&lt;Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;&gt; this, Task&lt;T1&gt; arg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, T8, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=109">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Bind_" data-uid="SGS.Framework.FunK.TaskExtensions.Bind*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Bind__2_Task___0__Func___0_Task___1___" data-uid="SGS.Framework.FunK.TaskExtensions.Bind``2(Task{``0},Func{``0,Task{``1}})">Bind&lt;T, R&gt;(Task&lt;T&gt;, Func&lt;T, Task&lt;R&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Bind&lt;T, R&gt;(this Task&lt;T&gt; task, Func&lt;T, Task&lt;R&gt;&gt; f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=172">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_BindInner_" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_BindInner__2_Task_SGS_Framework_FunK_Exceptional___0___Func___0_SGS_Framework_FunK_Exceptional___1___" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner``2(Task{SGS.Framework.FunK.Exceptional{``0}},Func{``0,SGS.Framework.FunK.Exceptional{``1}})">BindInner&lt;T, TR&gt;(Task&lt;Exceptional&lt;T&gt;&gt;, Func&lt;T, Exceptional&lt;TR&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Bind to its inner Exceptional value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Exceptional&lt;TR&gt;&gt; BindInner&lt;T, TR&gt;(this Task&lt;Exceptional&lt;T&gt;&gt; task, Func&lt;T, Exceptional&lt;TR&gt;&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Exceptional-1.html">Exceptional</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <a class="xref" href="SGS.Framework.FunK.Exceptional-1.html">Exceptional</a>&lt;TR&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Exceptional-1.html">Exceptional</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=178">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_BindInner_" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_BindInner__2_Task_SGS_Framework_FunK_Maybe___0___Func___0_SGS_Framework_FunK_Maybe___1___" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner``2(Task{SGS.Framework.FunK.Maybe{``0}},Func{``0,SGS.Framework.FunK.Maybe{``1}})">BindInner&lt;T, TR&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Maybe&lt;TR&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Bind to its inner Maybe value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Maybe&lt;TR&gt;&gt; BindInner&lt;T, TR&gt;(this Task&lt;Maybe&lt;T&gt;&gt; task, Func&lt;T, Maybe&lt;TR&gt;&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;TR&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=184">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_BindInner_" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_BindInner__2_Task_SGS_Framework_FunK_Validation___0___Func___0_SGS_Framework_FunK_Validation___1___" data-uid="SGS.Framework.FunK.TaskExtensions.BindInner``2(Task{SGS.Framework.FunK.Validation{``0}},Func{``0,SGS.Framework.FunK.Validation{``1}})">BindInner&lt;T, TR&gt;(Task&lt;Validation&lt;T&gt;&gt;, Func&lt;T, Validation&lt;TR&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Bind to its inner Validation value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Validation&lt;TR&gt;&gt; BindInner&lt;T, TR&gt;(this Task&lt;Validation&lt;T&gt;&gt; task, Func&lt;T, Validation&lt;TR&gt;&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;TR&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=105">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_ForEach_" data-uid="SGS.Framework.FunK.TaskExtensions.ForEach*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_ForEach__1_Task___0__Action___0__" data-uid="SGS.Framework.FunK.TaskExtensions.ForEach``1(Task{``0},Action{``0})">ForEach&lt;T&gt;(Task&lt;T&gt;, Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;System.ValueTuple&gt; ForEach&lt;T&gt;(this Task&lt;T&gt; this, Action&lt;T&gt; continuation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">continuation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.ValueTuple</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=218">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_GroupJoin_" data-uid="SGS.Framework.FunK.TaskExtensions.GroupJoin*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_GroupJoin__4_Task___0__Task___1__Func___0___2__Func___1___2__Func___0_Task___1____3__" data-uid="SGS.Framework.FunK.TaskExtensions.GroupJoin``4(Task{``0},Task{``1},Func{``0,``2},Func{``1,``2},Func{``0,Task{``1},``3})">GroupJoin&lt;T, U, K, V&gt;(Task&lt;T&gt;, Task&lt;U&gt;, Func&lt;T, K&gt;, Func&lt;U, K&gt;, Func&lt;T, Task&lt;U&gt;, V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;V&gt; GroupJoin&lt;T, U, K, V&gt;(this Task&lt;T&gt; source, Task&lt;U&gt; inner, Func&lt;T, K&gt; outerKeySelector, Func&lt;U, K&gt; innerKeySelector, Func&lt;T, Task&lt;U&gt;, V&gt; resultSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;U&gt;</td>
+        <td><span class="parametername">inner</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, K&gt;</td>
+        <td><span class="parametername">outerKeySelector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;U, K&gt;</td>
+        <td><span class="parametername">innerKeySelector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;U&gt;, V&gt;</td>
+        <td><span class="parametername">resultSelector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">K</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">V</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=206">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Join_" data-uid="SGS.Framework.FunK.TaskExtensions.Join*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Join__4_Task___0__Task___1__Func___0___2__Func___1___2__Func___0___1___3__" data-uid="SGS.Framework.FunK.TaskExtensions.Join``4(Task{``0},Task{``1},Func{``0,``2},Func{``1,``2},Func{``0,``1,``3})">Join&lt;T, U, K, V&gt;(Task&lt;T&gt;, Task&lt;U&gt;, Func&lt;T, K&gt;, Func&lt;U, K&gt;, Func&lt;T, U, V&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;V&gt; Join&lt;T, U, K, V&gt;(this Task&lt;T&gt; source, Task&lt;U&gt; inner, Func&lt;T, K&gt; outerKeySelector, Func&lt;U, K&gt; innerKeySelector, Func&lt;T, U, V&gt; resultSelector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Task</span>&lt;U&gt;</td>
+        <td><span class="parametername">inner</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, K&gt;</td>
+        <td><span class="parametername">outerKeySelector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;U, K&gt;</td>
+        <td><span class="parametername">innerKeySelector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, U, V&gt;</td>
+        <td><span class="parametername">resultSelector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;V&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">K</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">V</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=59">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__1_Task_Func___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``1(Task,Func{``0})">Map&lt;R&gt;(Task, Func&lt;R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Map&lt;R&gt;(this Task task, Func&lt;R&gt; f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;R&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=94">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__10_Task___0__Func___0___1___2___3___4___5___6___7___8___9__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``10(Task{``0},Func{``0,``1,``2,``3,``4,``5,``6,``7,``8,``9})">Map&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt; Map&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, T8, T9, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T9</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=54">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__2_Task___0__Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``2(Task{``0},Func{``0,``1})">Map&lt;T, R&gt;(Task&lt;T&gt;, Func&lt;T, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Map&lt;T, R&gt;(this Task&lt;T&gt; task, Func&lt;T, R&gt; f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=98">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__2_Task___0__Func_Exception___1__Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``2(Task{``0},Func{Exception,``1},Func{``0,``1})">Map&lt;T, R&gt;(Task&lt;T&gt;, Func&lt;Exception, R&gt;, Func&lt;T, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Map&lt;T, R&gt;(this Task&lt;T&gt; task, Func&lt;Exception, R&gt; Faulted, Func&lt;T, R&gt; Completed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Exception</span>, R&gt;</td>
+        <td><span class="parametername">Faulted</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
+        <td><span class="parametername">Completed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=66">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__3_Task___0__Func___0___1___2__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``3(Task{``0},Func{``0,``1,``2})">Map&lt;T1, T2, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, R&gt;&gt; Map&lt;T1, T2, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=70">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__4_Task___0__Func___0___1___2___3__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``4(Task{``0},Func{``0,``1,``2,``3})">Map&lt;T1, T2, T3, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, R&gt;&gt; Map&lt;T1, T2, T3, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=74">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__5_Task___0__Func___0___1___2___3___4__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``5(Task{``0},Func{``0,``1,``2,``3,``4})">Map&lt;T1, T2, T3, T4, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, R&gt;&gt; Map&lt;T1, T2, T3, T4, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=78">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__6_Task___0__Func___0___1___2___3___4___5__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``6(Task{``0},Func{``0,``1,``2,``3,``4,``5})">Map&lt;T1, T2, T3, T4, T5, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, T5, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, R&gt;&gt; Map&lt;T1, T2, T3, T4, T5, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, T5, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=82">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__7_Task___0__Func___0___1___2___3___4___5___6__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``7(Task{``0},Func{``0,``1,``2,``3,``4,``5,``6})">Map&lt;T1, T2, T3, T4, T5, T6, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, T5, T6, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, R&gt;&gt; Map&lt;T1, T2, T3, T4, T5, T6, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, T5, T6, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=86">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__8_Task___0__Func___0___1___2___3___4___5___6___7__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``8(Task{``0},Func{``0,``1,``2,``3,``4,``5,``6,``7})">Map&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, R&gt;&gt; Map&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, T5, T6, T7, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=90">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Map_" data-uid="SGS.Framework.FunK.TaskExtensions.Map*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Map__9_Task___0__Func___0___1___2___3___4___5___6___7___8__" data-uid="SGS.Framework.FunK.TaskExtensions.Map``9(Task{``0},Func{``0,``1,``2,``3,``4,``5,``6,``7,``8})">Map&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;(Task&lt;T1&gt;, Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Func&lt;T2, T3, T4, T5, T6, T7, T8, R&gt;&gt; Map&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;(this Task&lt;T1&gt; this, Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T1&gt;</td>
+        <td><span class="parametername">this</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T1, T2, T3, T4, T5, T6, T7, T8, R&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">Func</span>&lt;T2, T3, T4, T5, T6, T7, T8, R&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T8</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=190">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_MapInner_" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_MapInner__2_Task_SGS_Framework_FunK_Exceptional___0___Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner``2(Task{SGS.Framework.FunK.Exceptional{``0}},Func{``0,``1})">MapInner&lt;T, TR&gt;(Task&lt;Exceptional&lt;T&gt;&gt;, Func&lt;T, TR&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Map to its inner Exceptional value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Exceptional&lt;TR&gt;&gt; MapInner&lt;T, TR&gt;(this Task&lt;Exceptional&lt;T&gt;&gt; task, Func&lt;T, TR&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Exceptional-1.html">Exceptional</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TR&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Exceptional-1.html">Exceptional</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=196">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_MapInner_" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_MapInner__2_Task_SGS_Framework_FunK_Maybe___0___Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner``2(Task{SGS.Framework.FunK.Maybe{``0}},Func{``0,``1})">MapInner&lt;T, TR&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, TR&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Map to its inner Maybe value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Maybe&lt;TR&gt;&gt; MapInner&lt;T, TR&gt;(this Task&lt;Maybe&lt;T&gt;&gt; task, Func&lt;T, TR&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TR&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Maybe-1.html">Maybe</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=202">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_MapInner_" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_MapInner__2_Task_SGS_Framework_FunK_Validation___0___Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.MapInner``2(Task{SGS.Framework.FunK.Validation{``0}},Func{``0,``1})">MapInner&lt;T, TR&gt;(Task&lt;Validation&lt;T&gt;&gt;, Func&lt;T, TR&gt;)</h4>
+  <div class="markdown level1 summary"><p>Applies a Map to its inner Validation value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Validation&lt;TR&gt;&gt; MapInner&lt;T, TR&gt;(this Task&lt;Validation&lt;T&gt;&gt; task, Func&lt;T, TR&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TR&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="SGS.Framework.FunK.Validation-1.html">Validation</a>&lt;TR&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=115">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_OrElse_" data-uid="SGS.Framework.FunK.TaskExtensions.OrElse*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_OrElse__1_Task___0__Func_Task___0___" data-uid="SGS.Framework.FunK.TaskExtensions.OrElse``1(Task{``0},Func{Task{``0}})">OrElse&lt;T&gt;(Task&lt;T&gt;, Func&lt;Task&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; OrElse&lt;T&gt;(this Task&lt;T&gt; task, Func&lt;Task&lt;T&gt;&gt; fallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">fallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=125">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Recover_" data-uid="SGS.Framework.FunK.TaskExtensions.Recover*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Recover__1_Task___0__Func_Exception___0__" data-uid="SGS.Framework.FunK.TaskExtensions.Recover``1(Task{``0},Func{Exception,``0})">Recover&lt;T&gt;(Task&lt;T&gt;, Func&lt;Exception, T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; Recover&lt;T&gt;(this Task&lt;T&gt; task, Func&lt;Exception, T&gt; fallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Exception</span>, T&gt;</td>
+        <td><span class="parametername">fallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=132">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_RecoverWith_" data-uid="SGS.Framework.FunK.TaskExtensions.RecoverWith*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_RecoverWith__1_Task___0__Func_Exception_Task___0___" data-uid="SGS.Framework.FunK.TaskExtensions.RecoverWith``1(Task{``0},Func{Exception,Task{``0}})">RecoverWith&lt;T&gt;(Task&lt;T&gt;, Func&lt;Exception, Task&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RecoverWith&lt;T&gt;(this Task&lt;T&gt; task, Func&lt;Exception, Task&lt;T&gt;&gt; fallback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Exception</span>, <span class="xref">Task</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">fallback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=158">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Select_" data-uid="SGS.Framework.FunK.TaskExtensions.Select*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Select__2_Task___0__Func___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.Select``2(Task{``0},Func{``0,``1})">Select&lt;T, R&gt;(Task&lt;T&gt;, Func&lt;T, R&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;R&gt; Select&lt;T, R&gt;(this Task&lt;T&gt; task, Func&lt;T, R&gt; f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;R&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=150">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_SelectMany_" data-uid="SGS.Framework.FunK.TaskExtensions.SelectMany*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_SelectMany__2_Task_Func_System_ValueTuple_Task___0___Func_System_ValueTuple___0___1__" data-uid="SGS.Framework.FunK.TaskExtensions.SelectMany``2(Task,Func{System.ValueTuple,Task{``0}},Func{System.ValueTuple,``0,``1})">SelectMany&lt;R, RR&gt;(Task, Func&lt;System.ValueTuple, Task&lt;R&gt;&gt;, Func&lt;System.ValueTuple, R, RR&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;RR&gt; SelectMany&lt;R, RR&gt;(this Task task, Func&lt;System.ValueTuple, Task&lt;R&gt;&gt; bind, Func&lt;System.ValueTuple, R, RR&gt; project)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.ValueTuple</span>, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">bind</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.ValueTuple</span>, R, RR&gt;</td>
+        <td><span class="parametername">project</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;RR&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">RR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=142">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_SelectMany_" data-uid="SGS.Framework.FunK.TaskExtensions.SelectMany*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_SelectMany__3_Task___0__Func___0_Task___1___Func___0___1___2__" data-uid="SGS.Framework.FunK.TaskExtensions.SelectMany``3(Task{``0},Func{``0,Task{``1}},Func{``0,``1,``2})">SelectMany&lt;T, R, RR&gt;(Task&lt;T&gt;, Func&lt;T, Task&lt;R&gt;&gt;, Func&lt;T, R, RR&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;RR&gt; SelectMany&lt;T, R, RR&gt;(this Task&lt;T&gt; task, Func&lt;T, Task&lt;R&gt;&gt; bind, Func&lt;T, R, RR&gt; project)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">Task</span>&lt;R&gt;&gt;</td>
+        <td><span class="parametername">bind</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, R, RR&gt;</td>
+        <td><span class="parametername">project</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;RR&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">R</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">RR</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=229">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_ToFunc_" data-uid="SGS.Framework.FunK.TaskExtensions.ToFunc*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_ToFunc_Task_" data-uid="SGS.Framework.FunK.TaskExtensions.ToFunc(Task)">ToFunc(Task)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static System.ValueTuple ToFunc(this Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=235">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_ToFuncTask_" data-uid="SGS.Framework.FunK.TaskExtensions.ToFuncTask*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_ToFuncTask_Task_" data-uid="SGS.Framework.FunK.TaskExtensions.ToFuncTask(Task)">ToFuncTask(Task)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;System.ValueTuple&gt; ToFuncTask(this Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.ValueTuple</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=238">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_WaitResult_" data-uid="SGS.Framework.FunK.TaskExtensions.WaitResult*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_WaitResult__1_Task___0__" data-uid="SGS.Framework.FunK.TaskExtensions.WaitResult``1(Task{``0})">WaitResult&lt;T&gt;(Task&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T WaitResult&lt;T&gt;(this Task&lt;T&gt; task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=161">View Source</a>
+  </span>
+  <a id="SGS_Framework_FunK_TaskExtensions_Where_" data-uid="SGS.Framework.FunK.TaskExtensions.Where*"></a>
+  <h4 id="SGS_Framework_FunK_TaskExtensions_Where__1_Task___0__Func___0_System_Boolean__" data-uid="SGS.Framework.FunK.TaskExtensions.Where``1(Task{``0},Func{``0,System.Boolean})">Where&lt;T&gt;(Task&lt;T&gt;, Func&lt;T, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; Where&lt;T&gt;(this Task&lt;T&gt; source, Func&lt;T, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/sgs-swacoe-projects/SGS%20DevOps/_git/SGS.DocfxSite?path=src/SGS.Framework.FunK/TaskExtensions/TaskExtensions.cs&amp;version=GBmaster&amp;line=15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

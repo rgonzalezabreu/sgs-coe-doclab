@@ -1,0 +1,1393 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/SGS.DocfxSite",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "4TkBxWqgLP2z9L14YibgNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobContainerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobContainerOptions.html",
+          "hash": "OQXgj0n814wDlT0X9B1n6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobManager.html",
+          "hash": "E083Wh+H9fa+J7wMh6ihdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.BlobReferenceResponse.html",
+          "hash": "7GMrY1A/R7D0RWYKAl7bqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.DataMergeOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.DataMergeOption.html",
+          "hash": "/d1NJ5usA2Xrazv5IZDDXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.DecodingOption.html",
+          "hash": "h2XEjccSdkCSnNX+mHNn3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.EncodingOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.EncodingOption.html",
+          "hash": "HCIN+7WigkOb5VCyzMqlMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.IBlobManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.IBlobManager.html",
+          "hash": "Qi1idg+RHe8ErGrfg7+8rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Contracts.html",
+          "hash": "bqErI4F+PAY/oajSeWwo8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.ByteExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.ByteExtensions.html",
+          "hash": "N/08DO27Vi7PMEicw8miaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.DictionaryExtensions.html",
+          "hash": "ZbxmWMV44WAtfGUOpsmUNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.StringEscapingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.StringEscapingExtensions.html",
+          "hash": "zvk+6/kkv75mH0XG32WnFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Extensions.html",
+          "hash": "X40BIgUtUBmhBd1NwB2Chw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Models.MetadataOptions.html",
+          "hash": "djdX+cy3dxv7pnOmJYmwgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.Models.html",
+          "hash": "ipFh0TE7ox6zG/l7sgamdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.VersioningModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.VersioningModel.html",
+          "hash": "hr2B5sgfu7cdKnbSHCnKng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/SGS.Framework.Azure.SimpleBlobStorage.html",
+          "hash": "j5Y+mWnK7rdYI7MMgSZAgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api-blob/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/index.html",
+          "hash": "03xFb799fK71m7suQMiKuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-blob/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-blob/toc.html",
+          "hash": "BM1FjCun/+RCLRg7a2Z0SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ActionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ActionExtension.html",
+          "hash": "7VwQpEPm7CCQ8tdoCgqjMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Agent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Agent-1.html",
+          "hash": "Er9v26R/e0bmiERXhNHxdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Agent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Agent-2.html",
+          "hash": "LBvJH30TX5yL7JArwvYWow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Agent.html",
+          "hash": "LdoAssTd9vff4H3Fj83EPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Atom-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Atom-1.html",
+          "hash": "Fl7q1cewvgaqZiwdM14meg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Coyo-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Coyo-2.html",
+          "hash": "tSNV3+D9JzZcxqGT0Cifrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Coyo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Coyo.html",
+          "hash": "v44g6gRUcwkdnYz7Rd9MSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Date.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Date.html",
+          "hash": "zQsSyoTJjlzH3gxCzwWVaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Decimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Decimal.html",
+          "hash": "5dsxbcBsWBSCUln9hgen4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.DictionaryExtensions.html",
+          "hash": "jlv+yYHszKd/j2GfRnTaDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Double.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Double.html",
+          "hash": "VuKAT5ZnROTOGzt8sjgBTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Either-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Either-2.html",
+          "hash": "wCo4L8RlDLV8YyeFQ9JxPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Either.Left-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Either.Left-1.html",
+          "hash": "SORo/iWAX5xcWKf78+JyIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Either.Right-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Either.Right-1.html",
+          "hash": "uOtCgg0cIk7iMzjRKuE5rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Either.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Either.html",
+          "hash": "yedoCMTC1ou7jdoKELxxmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.EitherExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.EitherExtensions.html",
+          "hash": "oWutgfviFfmN++tmv9JxNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.EmptyList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.EmptyList-1.html",
+          "hash": "qp2dEAMMOaeYgHYboXUcOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Enum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Enum.html",
+          "hash": "z3tWhg+sGJOzRCI5Ic1Keg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.EnumerableExtensions.html",
+          "hash": "I6MN4p9zbwMyNp/Aezv2bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Error.html",
+          "hash": "04ROJ/lu4rTxhWCXOOV3vQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Exceptional-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Exceptional-1.html",
+          "hash": "T1aVcudkjMZOrFdXZ80JVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Exceptional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Exceptional.html",
+          "hash": "2YrQSgQVz/vv/IhnSxly1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ExceptionalTraversable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ExceptionalTraversable.html",
+          "hash": "i8GaR3t0REXT65srAl6Xaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.F.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.F.html",
+          "hash": "QS4qAOqbgF9yZaZ/XQoetQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Free-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Free-1.html",
+          "hash": "JF9dBv7Z3jYz53+MLGyzbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Free.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Free.html",
+          "hash": "ZWIZ0tzHaj82qeR4aDrXCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.FunK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.FunK.html",
+          "hash": "Z0eO08YIG916SOc3G2VWjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.FuncExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.FuncExtensions.html",
+          "hash": "1TPT/uO7qdu2tapfiCfn1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.FuncTExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.FuncTExt.html",
+          "hash": "QL0dxFiQQPrv9hNcBCQ79g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.FuncTRExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.FuncTRExt.html",
+          "hash": "HmCzJjtuC6xZjJ7ZfQLmxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.IEnumerableTraversable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.IEnumerableTraversable.html",
+          "hash": "px2IEaFnZGHufKYPq1uesQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Identity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Identity-1.html",
+          "hash": "q7tO6Oa0QUWnE0GDyyxGgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Identity.html",
+          "hash": "7utxCLg0YCL+fg0WH6ws8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Immutable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Immutable.html",
+          "hash": "D0jJt9B+azxuvKAFU3FdqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Int.html",
+          "hash": "DwxJ/A4/XfqyTuzL1wYuwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Long.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Long.html",
+          "hash": "okA6i7HT9U3BAioxGWF3Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Maybe-1.html",
+          "hash": "prfV6PTI4wo08xLhWkHGZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Maybe.Just-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Maybe.Just-1.html",
+          "hash": "GJD8LEN3SsLJF82rNivNrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Maybe.Nothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Maybe.Nothing.html",
+          "hash": "xiZh7TqmRwd6RawfbhVfWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Maybe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Maybe.html",
+          "hash": "TTxFnAhCTB/TCwy2ZA7X1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.MaybeExtensions.html",
+          "hash": "vBDYKuvzchvW233Nol2QRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.MaybeTraversable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.MaybeTraversable.html",
+          "hash": "r/jC9NfCc4sAq14mN9ra3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.NonExhaustivePattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.NonExhaustivePattern.html",
+          "hash": "Pe6uExOjAnovGWvNiASbBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.NoneType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.NoneType.html",
+          "hash": "u3TpP/UV5/lITKbjKZ1HEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ObservableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ObservableExtensions.html",
+          "hash": "4TupDlfeSO94SetpOMNYBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Operation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Operation-2.html",
+          "hash": "INIPWkMWjRBGeFh967mW0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationExtensions.html",
+          "hash": "FaF9XI8ulLSTwEGupXD6gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationFinally.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationFinally.html",
+          "hash": "JbpdfHN2Bnm8SmKmfLR3qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationFinallyForEach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationFinallyForEach.html",
+          "hash": "OaeceQysIEU+73LATgSzWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationIfThen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationIfThen.html",
+          "hash": "Dh7SjkRXQNILb5BGFM+qVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationThen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationThen.html",
+          "hash": "lTthqZqqxIwllTC6kdH/LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationThenForEach.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationThenForEach.html",
+          "hash": "s23G9y/+XeSNJkxUMcoddA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationThenForEachAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationThenForEachAsync.html",
+          "hash": "QjWnTL3wKrh3AeViImEwuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.OperationThenTuples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.OperationThenTuples.html",
+          "hash": "nN7p9Qc1zbC23r7EHCGjhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Pattern-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Pattern-1.html",
+          "hash": "Ecx/KM+TY2u8bZJZOXKCng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Pattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Pattern.html",
+          "hash": "JzxjGKSYsnUsHUn8oqrxFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Reader-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Reader-2.html",
+          "hash": "vWEpw4efCU2NGa9zU0u+CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Reader.html",
+          "hash": "PC0wqRaDn8vnlraWe7EUGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Result-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Result-1.html",
+          "hash": "7fD9q3ibGiZFAV1wS133bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Result-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Result-2.html",
+          "hash": "PV897n5vj/KyMO8JeNVG9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Result.html",
+          "hash": "AgmujE4hHcK+Mo+ZLQKJaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ResultTApplicativeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ResultTApplicativeExtensions.html",
+          "hash": "/JnvtJjw4zl0AmWCkSxrKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ResultTFunctorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ResultTFunctorExtensions.html",
+          "hash": "B+eBt5lK7rCK/ki+L/aJRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ResultTMonadExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ResultTMonadExtensions.html",
+          "hash": "QGe0lSa3EqqXS6nCy/K/kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ResultTaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ResultTaskExtensions.html",
+          "hash": "X+FGwkKfGuU3mwUTiCaThg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation-1.html",
+          "hash": "RuCtuANLZTxKIGhvmLMXSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation-2.html",
+          "hash": "R+DKyldnS9vgF6Zt+txVuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.StatefulComputation.html",
+          "hash": "3yVLnbkNfy9Ez9tLLy5u7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.String.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.String.html",
+          "hash": "CS52jkDlgmvsdLK2AfcAwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Syntax-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Syntax-2.html",
+          "hash": "19BYb/GrMcuP+pF+eEZWug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Syntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Syntax.html",
+          "hash": "kus1OujJELQ0OgXO5ORyfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TaskExtensions.html",
+          "hash": "IEN3uzcyzt8E8JwrYeP5GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TaskMaybeMonad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TaskMaybeMonad.html",
+          "hash": "4tJyKgGZX6onHta4ur4ynQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TaskTraversable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TaskTraversable.html",
+          "hash": "xLjnxpIIjjIlirW42dESSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TaskValidationMonad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TaskValidationMonad.html",
+          "hash": "bAj9VINbfxE7ZvTrOwAQ/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TimeSpanExtentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TimeSpanExtentions.html",
+          "hash": "cWUuiOXM2dJePgW2pcxjEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Try-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Try-1.html",
+          "hash": "TXA5+3rycncbvFYwv9kThw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TryExtensions.html",
+          "hash": "asbO+rUQHbq3SPGbOAKVaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.TupleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.TupleExtensions.html",
+          "hash": "mf6CSITawXA/pAE3V6BtRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Validation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Validation-1.html",
+          "hash": "GsryYbJpUYU08gIcipzdCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Validation.Invalid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Validation.Invalid.html",
+          "hash": "wGt+vOdDCh6S1ZFDncLi7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.Validation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.Validation.html",
+          "hash": "2E0d17Go2hE7/cYt5J1WDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.ValidationTraversable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.ValidationTraversable.html",
+          "hash": "UarsmWeG4qlzbkrDEUOP/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api-funk/SGS.Framework.FunK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/SGS.Framework.FunK.html",
+          "hash": "zg8Wzq7V9+pXESiHiDU6dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api-funk/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/index.html",
+          "hash": "WeI1IblZS/Ic+CpW0ACJcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api-funk/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-funk/toc.html",
+          "hash": "/I3NvRCdTuWEVH6tu/oCXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "FT8VhlBG/cjBYofcNPvQTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logocoe.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logocoe.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logosgs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logosgs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Fim8FP56D1lGUFlau0Pj0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "sp9z4pU5Y4Ij1QoU/CT12A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 100,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
